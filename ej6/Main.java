@@ -15,11 +15,6 @@ public class Main {
 
         executor.shutdown();
 
-        // Pregunta para pensar: ¿Cuál es la ventaja de usar ExecutorService sobre la
-        // creación manual de hilos con new Thread()?
-        // ExecutorService reutiliza un pool de hilos en lugar de crear uno nuevo por cada
-        // tarea, lo cual es más eficiente y evita saturar el sistema. Además permite
-        // limitar cuántos hilos corren a la vez y, con Callable y Future, obtener
-        // resultados de las tareas de forma más simple.
+    
     }
 }
